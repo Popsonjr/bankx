@@ -1,0 +1,1 @@
+window.addEventListener("load",o=>{if(window.location.hash){const o=document.querySelector(window.location.hash);if(o){const n=o.getBoundingClientRect().top+window.pageYOffset;window.scrollTo({top:n,behavior:"smooth"})}}});
